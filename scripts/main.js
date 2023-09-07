@@ -1,5 +1,6 @@
 const myImage = document.querySelector("img");
 
+// Changes the logo to either brave or mozilla on click
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/firefox-icon.png") {
@@ -9,6 +10,7 @@ myImage.onclick = () => {
   }
 };
 
+// prompts the user to enter a name, which will be displayed on the heading
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
